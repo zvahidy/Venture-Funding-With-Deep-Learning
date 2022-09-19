@@ -19,16 +19,22 @@ Resources included 1 csv file:
 (Resources/applicants_data.csv)
 
 
-Tools
+### Tools:
 
 Libraries and dependencies:
 
 import pandas as pd
+
 from pathlib import Path
+
 import tensorflow as tf
+
 from tensorflow.keras.layers import Dense
+
 from tensorflow.keras.models import Sequential
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.preprocessing import StandardScaler,OneHotEncoder
 
 ![](Screenshots/Imports_libraries.png)
@@ -48,11 +54,11 @@ python -c "import tensorflow as tf;print(tf.keras.__version__)"
 Creating a Neural Network
 ![](Screenshots/Neural_network.png)
 
-OndHotEncoder
+OneHotEncoder
 ![](Screenshots/OneHotEncoder.png)
 
 When Utilizing Deep Learning modeling methods, there are ways to calculation optimization but other times optimization can only be found with trial and error such as changing the number of hidden nodes, output activation and number of epochs. By changing these numbers in a few scenerios I was able to improve the accuracy score by decreasing the hidden nodes but increasing the epochs. Changing the activation in this case, decreased the accuracy substainially. nn_A2 was ultimately the best model of the 3 for this particular dataset. 
-1[](Screenshots/loss_accuracy_comparison.png)
+![](Screenshots/loss_accuracy_comparison.png)
 
 ## Contributors
 
