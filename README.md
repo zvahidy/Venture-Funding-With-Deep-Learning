@@ -22,6 +22,7 @@ Resources included 1 csv file:
 Tools
 
 Libraries and dependencies:
+
 import pandas as pd
 from pathlib import Path
 import tensorflow as tf
@@ -33,7 +34,8 @@ from sklearn.preprocessing import StandardScaler,OneHotEncoder
 ![](Screenshots/Imports_libraries.png)
 
 ## Installation Guide
-Installation requirements for this project included Python and Panda Libraries,
+Installation requirements for this project included Python and Panda Libraries, TensorFlow and Keras:
+
 pip install --upgrade tensorflow
 python -c "import tensorflow as tf;print(tf.__version__)"
 python -c "import tensorflow as tf;print(tf.keras.__version__)"
